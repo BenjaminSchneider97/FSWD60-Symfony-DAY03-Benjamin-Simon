@@ -11,12 +11,15 @@ php bin/console server:run
 Create a new database:
 php bin/console doctrine:database:create
 
+STEP1
 Create an entity:
 php bin/console doctrine:generate:entity
 
+STEP2
 Validate database:(checks the current status)
 php bin/console doctrine:schema:validate
 
+STEP3
 Update:(updates the database)
 php bin/console doctrine:schema:update --force
 

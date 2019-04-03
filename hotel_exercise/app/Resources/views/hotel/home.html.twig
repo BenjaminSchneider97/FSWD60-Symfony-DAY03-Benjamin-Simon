@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<table class="table">
+<tr>
+<th>Room Number</th>
+<th>Room Price</th>
+<th>Room Status</th>
+</tr>
+{% for x in data %}
+<tr>
+<td>{{ x.roomnumber }}</td>
+<td>{{ x.roomprice }}</td>
+<td>{{ x.roomstatus }}</td>
+</tr>
+{% endfor %}
+</table>
+{% endblock %}

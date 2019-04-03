@@ -1,0 +1,40 @@
+*, img {
+	border: 1px solid red;
+}
+
+
+html {
+	position:  relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 155px;
+}
+#footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 150px;
+	background-color: #343a40;
+	color: white;
+	text-align: center;
+	position:  absolute;
+	bottom: 0;
+}
+
+#footer img {
+	width: 10%;
+	margin: auto auto 5px auto;
+}
+
+#footer p {
+	margin: 0px auto 5px auto;
+}
+
+.table { border-collapse: collapse; }
+.table th, td {
+border-bottom: 1px solid #ddd;
+width: 250px;
+text-align: left;
+}

@@ -2,6 +2,7 @@ Symfony Cheat Sheet
 
 Create a new symfony project:
 symfony create [project_name] 3.4 (or any other version)
+WINDOWS WITH COMPOSER:  composer create-project symfony/framework-standard-edition my_project_name "3.4.*"
 
 Host the project:
 php bin/console server:run 

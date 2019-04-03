@@ -1,0 +1,25 @@
+Symfony Cheat Sheet
+
+Create a new symfony project:
+symfony create [project_name] 3.4 (or any other version)
+
+Host the project:
+php bin/console server:run 
+
+
+Create a new database:
+php bin/console doctrine:database:create
+
+Create an entity:
+php bin/console doctrine:generate:entity
+
+Validate database:(checks the current status)
+php bin/console doctrine:schema:validate
+
+Update:(updates the database)
+php bin/console doctrine:schema:update --force
+
+
+
+
+
